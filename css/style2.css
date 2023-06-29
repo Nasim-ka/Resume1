@@ -1,0 +1,170 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #212121;
+    background-color: #BAC7A7;
+}
+.top-container {
+    position: relative;
+    padding: 0rem;
+    margin: 0rem;
+
+}
+.nav-list li {
+    position: relative;
+    top: 1rem;
+    left: 28rem;
+    display: inline;
+    float: left;
+    text-decoration: none;
+    background-color: #889E81;
+    z-index: 1000;
+    
+}
+.nav-list ul {
+    position: fixed;
+    margin-top: 0rem;
+    height: 80px;
+    width: 1435px;
+    display: block;
+    z-index: 1000;
+    background-color: #889E81;
+}
+.nav-list li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+a {
+    display: block;
+    padding-left: 6rem;
+    text-decoration: none;
+    color: black;
+}
+.css {
+    position: absolute;
+    right: 26rem;
+    top: 18rem;
+}
+.brocket {
+    position: absolute;
+    right: 28rem;
+    top: 8rem;
+}
+.Bootstrap {
+    position: absolute;
+    left: 18rem;
+    top: 19rem;
+}
+.cloud {
+    position: absolute;
+    left: 20rem;
+    top: 8rem;  
+}
+.laptop {
+    position: absolute;
+    right: 26rem;
+    top: 7rem;
+}
+.middle-container {
+    position: relative;
+    top: 5rem;
+}
+.middle-container h1 {
+    position: absolute;
+    top: 30rem;
+    left: 32rem;
+    text-align: center;
+}
+.profile {
+    position: absolute;
+    top: 31.5rem;
+    left: 25rem;
+    text-align: center;
+    float: left;
+
+}
+.skil {
+    float: left;
+    padding: 5rem;
+    position: absolute;
+    top: 32rem;
+}
+.skil-html {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+}
+.progress-bar1 {
+    position: relative;
+    top: 7rem;
+    margin-left: 20rem;
+    background-color:#698474;
+    width:50rem;
+    height: 3rem;
+    border-radius:10px;
+}
+.progress1
+{   position: absolute;
+    width: 90%;
+    height:3rem;
+    border-radius:10px;
+    background-color:#889E81;
+    text-align: center;
+}
+.skil-css {
+    position: absolute;
+    top: 17rem;
+    left: 10rem;
+}
+.progress-bar2 {
+    position: relative;
+    top: 14rem;
+    margin-left: 20rem;
+    background-color:#698474;
+    width:50rem;
+    height: 3rem;
+    border-radius:10px;
+}
+.progress2
+{   position: absolute;
+    width: 80%;
+    height:3rem;
+    border-radius:10px;
+    background-color:#889E81;
+    text-align: center;
+}
+.skil-wordpres {
+    position: absolute;
+    top: 24rem;
+    left: 10rem;
+}
+.progress-bar3 {
+    position: relative;
+    top: 21rem;
+    margin-left: 20rem;
+    background-color:#698474;
+    width:50rem;
+    height: 3rem;
+    border-radius:10px;
+}
+.progress3
+{   position: absolute;
+    width: 60%;
+    height:3rem;
+    border-radius:10px;
+    background-color:#889E81;
+    text-align: center;
+}
+.footer {
+    position: absolute;
+    top: 65rem ;
+    height: 80px;
+    width: 1435px;
+    display: block;
+    z-index: 1000;
+    background-color: #889E81;
+}

@@ -1,0 +1,275 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #212121;
+    background-color: #BAC7A7;
+}
+.top-container {
+    position: relative;
+    padding: 0rem;
+    margin: 0rem;
+
+}
+.nav-list li {
+    position: relative;
+    top: 1rem;
+    left: 28rem;
+    display: inline;
+    float: left;
+    text-decoration: none;
+    background-color: #889E81;
+    z-index: 1000;
+    
+}
+.nav-list ul {
+    position: fixed;
+    margin-top: 0rem;
+    height: 80px;
+    width: 1435px;
+    display: block;
+    z-index: 1000;
+    background-color: #889E81;
+}
+.nav-list li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+a {
+    display: block;
+    padding-left: 6rem;
+    text-decoration: none;
+    color: black;
+}
+.name {
+    position: relative;
+
+}
+.name h1 {
+    position: absolute;
+    top: 14rem;
+    left: 10rem;
+    text-align: center;
+    
+}
+.name h4 {
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+    text-align: center;
+}
+.profile {
+    position: absolute;
+    top: 18rem;
+    left: 3rem;
+    text-align: center;
+
+} 
+.programer {
+    position: absolute;
+    right: 18rem;
+    top: 15rem;
+}
+.clock {
+    position: absolute;
+    right: 18rem;
+    top: 11rem;
+}
+.lamp {
+    position: absolute;
+    right: 28rem;
+    top: 6rem;
+}
+.css {
+    position: absolute;
+    right: 12rem;
+    top: 19rem;
+}
+.close-tag {
+    position: absolute;
+    right: 42rem;
+    top: 12rem;
+}
+.html {
+    position: absolute;
+    right: 50rem;
+    top: 21rem;
+}
+.middle-container {
+    position: relative;
+    top: 30rem;
+}
+.middle-container h2 {
+    position: absolute;
+    left: 38rem;
+    top: 3rem;
+    text-align: center;
+}
+.middle-container p{
+    position: absolute;
+    top: 11rem;
+    left: 15rem;
+    right: 15rem;
+    text-align: center;
+}
+.bottom-container {
+    position: relative;
+    top: 28rem;
+}
+.bottom-container h2 {
+    position: absolute;
+    top: 36rem;
+    left: 35rem;
+    text-align: center;
+}
+.bottom-container p {
+    position: absolute;
+    top: 46rem;
+    left: 15rem;
+    right: 15rem;
+    text-align: center;
+}
+.bottom-container a {
+    position: absolute;
+    display: inline-block;
+    top: 60rem;
+    left: 35rem;
+    padding: 1rem;
+    -webkit-border-radius: 1.5rem;
+     -moz-border-radius: 1.5rem;
+          border-radius: 1.5rem;
+    background:#889E81;
+}
+.footer {
+    position: absolute;
+    top: 105rem ;
+    height: 80px;
+    width: 1435px;
+    display: block;
+    z-index: 1000;
+    background-color: #889E81;
+}
+.firstname {
+    position: relative;
+}
+.contact-border {
+    position: absolute;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    margin: 0rem 4rem;
+    width: 76rem;
+    height: 35rem;
+}
+.firstname h4 {
+    position: absolute;
+    left: 1rem;
+    margin-top: 1rem;
+}
+.form-name {
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+    padding-left: 2rem;
+    border: 0;
+    border-bottom: 0.1rem solid #212121;
+    background-color: transparent;
+}
+.lastname {
+    position: relative;
+    margin: 4rem ;
+}
+.lastname h4 {
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+}
+.form-lastname {
+    position: absolute;
+    top: 14rem;
+    left: 1rem;
+    padding-left: 2rem;
+    border: 0;
+    border-bottom: 0.1rem solid #212121;
+    background-color: transparent;
+}
+.email {
+    position: relative;
+    margin: 4rem ;
+}
+.email h4 {
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+}
+.form-email {
+    position: absolute;
+    top: 21rem;
+    left: 1rem;
+    padding-left: 2rem;
+    border: 0;
+    border-bottom: 0.1rem solid #212121;
+    background-color: transparent;
+}
+.message {
+    position: relative;
+    margin: 4rem ;
+}
+.message h4 {
+    position: absolute;
+    top: 22rem;
+    left: 1rem;
+}
+.form-message {
+    position: absolute;
+    top: 26rem;
+    left: 1rem;
+    padding-left: 2rem;
+    border: 0;
+    border-bottom: 0.1rem solid #212121;
+    background-color: transparent;
+}
+.submit a {
+    position: absolute;
+    display: inline-block;
+    top: 28rem;
+    right: 13rem;
+    padding: 1rem 1.5rem;
+    -webkit-border-radius: 1.5rem;
+     -moz-border-radius: 1.5rem;
+          border-radius: 1.5rem;
+    background:#889E81;
+}
+.container-right {
+    position: relative;
+    right: 5rem;
+}
+.profile1 {
+    position: absolute;
+    top: 3rem;
+    display: inline-block;
+    right: 21rem
+    
+}
+.container-right h1 {
+    position: absolute;
+    display: inline-block;
+    right: 8rem;
+}
+.address {
+    position: absolute;
+    right: 8rem;
+    top: 11rem;
+}
+.phone {
+    position: absolute;
+    right: 8rem;
+    top: 16rem;
+}
+.my-email {
+    position: absolute;
+    right: 8rem;
+    top: 22rem;
+}
